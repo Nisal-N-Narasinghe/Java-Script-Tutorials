@@ -107,3 +107,20 @@ document.write("<table border='2' cellspacing='0' cellpadding='6'>",
     "<tr><td>!false</td><td>true</td></tr>",
     "</table><br><br>"
 );
+
+document.write("<h2>String Concatenation</h2>");
+
+document.write("<br>'Nisal' + 'Nirmitha' :- ", 'Nisal' + 'Nirmitha');
+document.write("<br>'Hello ' + 'World' :- ", 'Hello ' + 'World');
+document.write("<br>5 + '5' :- ", 5 + '5');
+
+document.write("<br><br>");
+
+//Creating a tables for showing String Concatenation
+document.write("<table border='2' cellspacing='0' cellpadding='6'>",
+    "<tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr>",
+    "<tr><td rowspan='3'>+</td><td rowspan='3'>Join two strings together</td><td>'Nisal' + 'Nirmitha'</td><td>NisalNirmitha</td></tr>",
+    "<tr><td>'Hello '+'World'</td><td>Hello World</td></tr>",
+    "<tr><td>5 + '5'</td><td>55</td></tr>",
+    "</table><br><br>"
+);
