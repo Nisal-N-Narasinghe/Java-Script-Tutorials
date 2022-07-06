@@ -1,3 +1,5 @@
+document.write("<h2>Arithmatic Operators</h2>");
+
 document.write("<br>5 + 4  = ", 5 + 4);
 document.write("<br>6 - 2  = ", 6 - 2);
 document.write("<br>3 * 4  = ", 3 * 4);
