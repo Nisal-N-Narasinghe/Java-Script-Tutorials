@@ -1,4 +1,4 @@
-//Creat function call printDate
+//-----Creat function call printDate------
 function printDate() {
     document.write(Date()); //Use js inbuilt function call Date for get date and time
 }
@@ -6,12 +6,20 @@ function printDate() {
 //Call function for Display Date and Time
 printDate();
 
-//Creat function to calculate amount
-function billAmount(price, qty) {
-    alert("Bill Amount: Rs" + price * qty);
+
+//------Creat function to calculate amount-----
+//;
+
+
+
+var fname = "Nisal";
+
+function printName(name) {
+    var fname = "Narasinghe"; //Valid only for inner function
+    document.write("<br> My name: " + name);
+    document.write("<br> My name: " + fname);
+
 }
 
-var productPrice = (prompt("Enter product price : "));
-var quantity = (prompt("Enter quantity : "));
-//Pass productPrice and quantity to billAmount function and display the amount
-billAmount(productPrice, quantity);
+printName(fname);
+document.write("<br> My name: " + fname);
